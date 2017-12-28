@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(to bottom right, #610164, #c20880);
+    height: 1000px;
+}
+
+img {
+  width: 50%;
+  height: 15%;
+  transform: translateY(130%);
+}

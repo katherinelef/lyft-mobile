@@ -1,0 +1,30 @@
+.row {
+  background-image: url("../assets/images/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.logo-white {
+  width: 30%;
+  height: 15%;
+  display: block;
+}
+
+.logo-pink {
+  width: 80%;
+  height: 40%;
+  display: block;
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+
+.btn{
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+}
+
+.first {
+  margin-left: 100px;
+}
