@@ -1,0 +1,28 @@
+i {
+border: 1px solid black;
+border-radius: 50%;
+padding: 5px 8px;
+margin-top: 10px;
+}
+.square {
+  display: inline-block;
+  border: 1px solid black;
+  height: 40px;
+  vertical-align: top;
+}
+
+select,input{
+  border: none;
+}
+
+button{
+  width: 80%;
+}
+
+.first {
+  margin-left: 100px;
+}
+
+.pink {
+  background-color: #df0a89;
+}
