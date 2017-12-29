@@ -1,19 +1,19 @@
 $(document).ready(function(){
 
-  $("input").keyup(function() {
+  $("#number").keyup(function() {
 
-    if($("input").val().length===12){
-      $("button").removeAttr("disabled");
-      $("button").addClass("pink")
+    if($("#number").val().length===12){
+      $("#next").removeAttr("disabled");
+      $("#next").addClass("pink")
     }
 
     else if($("input").val().length < 12 || $("input").val().length > 12){
-      $("button").attr( "disabled", "disabled" )
-      $("button").removeClass("pink")
+      $("#next").attr( "disabled", "disabled" )
+      $("#next").removeClass("pink")
     }
   });
 
-  $("button").click(function () {
+  $("#next").click(function () {
 
     function rand_code(chars, lon){
 code = "";
@@ -30,8 +30,11 @@ longitud = 3;
 
 var codigo = rand_code(caracteres, longitud);
  alert("Tu codigo: LAB-" + codigo)
- console.log(codigo);
+ console.log(parseInt(codigo));
+
+ window.location.href = 'verify.html';
 
   });
+
 
   });

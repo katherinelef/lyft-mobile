@@ -26,3 +26,19 @@ button{
 .pink {
   background-color: #df0a89;
 }
+
+.codigo {
+  border-bottom: 3px dashed #600164;
+  width: 30px;
+  display: inline-block;
+}
+
+.lab {
+  display: inline-block;
+  margin-left: 180px;
+}
+
+.resend {
+  width: 120px;
+  margin-bottom: 200px;
+}
