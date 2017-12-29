@@ -42,3 +42,11 @@ button{
   width: 120px;
   margin-bottom: 200px;
 }
+
+.input-group {
+  margin-top: 15px;
+}
+
+.checkbox {
+  margin-bottom: 200px;
+}
