@@ -8,3 +8,15 @@ img {
   height: 15%;
   transform: translateY(130%);
 }
+
+i {
+  color: black;
+  padding: 12px;
+}
+
+.check {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin-top: 300px;
+}
