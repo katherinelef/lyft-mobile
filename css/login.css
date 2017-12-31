@@ -2,21 +2,21 @@
   background-image: url("../assets/images/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 800px;
 }
 
 .logo-white {
-  width: 30%;
-  height: 15%;
   display: block;
+  height: 15%;
+  width: 30%;
 }
 
 .logo-pink {
-  width: 80%;
-  height: 40%;
   display: block;
+  height: 40%;
   margin-top: 30%;
   margin-bottom: 30%;
+  width: 80%;
 }
 
 .btn{

@@ -1,12 +1,12 @@
 body {
-    background: linear-gradient(to bottom right, #610164, #c20880);
-    height: 1000px;
+  background: linear-gradient(to bottom right, #610164, #c20880);
+  height: 1000px;
 }
 
 img {
-  width: 50%;
   height: 15%;
   transform: translateY(130%);
+  width: 50%;
 }
 
 i {
@@ -16,7 +16,7 @@ i {
 
 .check {
   background-color: white;
-  width: 100px;
   height: 100px;
   margin-top: 300px;
+  width: 100px;
 }

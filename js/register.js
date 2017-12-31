@@ -1,9 +1,7 @@
 $(document).ready(function () {
-
   var verifyUser = false;
   var verifyEmail = false;
   var verifyCheckbox =false;
-
 
   $("#user").keyup(function () {
     if($(this).val().length > 6){
@@ -12,7 +10,6 @@ $(document).ready(function () {
     }
     else
       verifyUser = false
-
   });
 
   $("#email").keyup(function () {
@@ -27,30 +24,27 @@ $(document).ready(function () {
     verifyEmail = false
   });
 
-    $("#check").click(function () {
+  $("#check").click(function () {
     if(checked=true){
       verifyCheckbox =true;
       desabilitar();
     }
     else
     verifyCheckbox =false
-
-
   });
 
   function desabilitar() {
-  if(verifyUser == true && verifyEmail==true && verifyCheckbox ==true){
-    $("#next4").removeAttr("disabled");
-    $("#next4").addClass("pink");
-  }
-  else
-    $("#next4").attr( "disabled", "disabled" );
-    $("#next4").removeClass("pink");
-  }
+    if(verifyUser == true && verifyEmail==true && verifyCheckbox ==true){
+      $("#next4").removeAttr("disabled");
+      $("#next4").addClass("pink");
+    }
+    else
+      $("#next4").attr( "disabled", "disabled" );
+      $("#next4").removeClass("pink");
+    }
 
   $("#next4").click(function () {
-
     window.location.href = 'valid.html';
+  });
 
-  })
 });
